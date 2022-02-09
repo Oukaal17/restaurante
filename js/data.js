@@ -1,13 +1,13 @@
-const food = [
-   bhat = {
-       nombre: 'Dhal Bhat',
+const comida = [
+   tajin = {
+       nombre: 'Tajín',
        precio: 10,
-       descipcion: 'Arros, lentejas'
+       descipcion: ''
    },
-   momo = {
-       nombre: 'Mo:Mo',
+   harcha = {
+       nombre: 'Harcha',
        precio: 8,
-       descipcion: 'Harina, Carne, mezclado con verduras'
+       descipcion: ''
    }
 
 
