@@ -1,1 +1,1 @@
-import { food } from './data.js' 
+import { comida } from './data.js' 

@@ -10,7 +10,4 @@ const comida = [
        descipcion: ''
    }
 
-
-
-
 ]
