@@ -23,8 +23,12 @@ body{
     background-color: lightgoldenrodyellow;
 }
 .dish-slide{
-    /* background-color:lightseagreen; */
+    background-color:lightseagreen;
     display: flex;
+    position: absolute;
+    width: 100%;
+    top: 72%;
+    margin: auto;
     justify-content: space-between;
 }
 .dish-slide img{
