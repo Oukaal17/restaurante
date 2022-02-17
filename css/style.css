@@ -8,22 +8,39 @@ body{
 }
 .container{
     width: 100%;
+    height: 100vh;
     max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
     background-color: crimson;
     display: grid;
-    grid-template-rows: [row1-start] 100px [row1-end] auto [third-line] ;
+    grid-template-rows: [row1-start] 100px [row1-end] auto [third-line] 50px ;
 
 }
 .header{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
     background-color:lightblue;
 }
+.Logo{
+    display: flex;
+}
+.nav-main{
+    display: flex;
+    align-items: center;
+}
+button{
+    margin: 5px;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
 .main-content{
-    background-color: lightgoldenrodyellow;
+    background-color: green;
 }
 .dish-slide{
-    background-color:lightseagreen;
+    /* background-color:darkgoldenrod; */
     display: flex;
     position: absolute;
     width: 100%;
@@ -34,6 +51,11 @@ body{
 .dish-slide img{
     width: 300px;
     border-radius: 100px;
+}
+.center{
+    position: absolute;
+    top: -100%;
+    left: 40%;
 }
 .footer{
     background-color: lime;
