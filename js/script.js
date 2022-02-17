@@ -1,1 +1,0 @@
-import { comida } from './data.js' 
