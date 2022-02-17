@@ -58,11 +58,36 @@ body{
 i{
     font-size: 1.5rem;
 }
+#i1{
+    font-size: 1rem;
+    margin: 5px;
+}
 .main-content{
     background-color: green;
 }
 .cantidadServings{
     display: inline-flex;
+    align-items: center;
+}
+.menos{
+    border-radius: 60px;
+    border-style: none;
+    margin: 10px;
+}
+.mas{
+    border-radius: 60px;
+    border-style: none;
+    margin: 10px;
+}
+.AddToBox{
+    display: inline-flex;
+    align-items:center;
+    padding: 10px 25px;
+    border-radius: 60px;
+    border-style: none;
+    background-color: red;
+    color: white;
+    box-shadow: 5px 5px 0px lightpink;
 }
 .dish-slide{
     /* background-color:darkgoldenrod; */
