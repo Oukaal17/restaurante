@@ -13,17 +13,24 @@ body{
     margin-right: auto;
     background-color: crimson;
     display: grid;
+    grid-template-rows: [row1-start] 100px [row1-end] auto [third-line] ;
 
 }
 .header{
-    background-color: cyan;
+    background-color:lightblue;
 }
 .main-content{
-    background-color: darkcyan;
+    background-color: lightgoldenrodyellow;
 }
 .dish-slide{
-    background-color:darkorange;
+    /* background-color:lightseagreen; */
+    display: flex;
+    justify-content: space-between;
+}
+.dish-slide img{
+    width: 300px;
+    border-radius: 100px;
 }
 .footer{
-    background-color: darkorchid;
+    background-color: lime;
 }
