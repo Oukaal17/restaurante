@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🍛PROYECTO FINAL RESTAURANTE</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5a29a99d2a.js" crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
 </head>
 <body>
@@ -17,16 +17,33 @@
             </div>
             
             <nav class="nav-main">
-                <button class="bandeja"></button>
-                <button class="menu">ººº</button>
+                <button class="bandeja"><i class="fas fa-inbox"></i></button>
+                <button class="menu"><i class="fa-solid fa-bars"></i></button>
             </nav>
         </header>
         <main class="main-content">
             <h1 class="dish-title">Pizza con pollo</h1> 
             <div class="dish-content">
-                <div class="dish-description">Lorem Ipsum</div>
+                <div class="dish-description">
+                    <h4>INFORMACIÓN</h4>
+                    <p>La pizza gourmet de pollo que os voy a preparar, está muy rica. Espero que la elaboréis ustedes en casa. Comenzaremos limpiando y picando la cebolla en rodajas muy finas que pochamos en una sartén, con una cucharada de aceite, hasta que esté bien dorada. Retiramos y reservamos.</p>
+                    <button class="AddToppings">
+                        <i class="fa-solid fa-plus"></i>
+                        <h5>Add Toppings</h5>
+                    </button>
+                </div>
+                <div class="dish-servings">
+                    <h4>SERVINGS</h4>
+                    <div class="cantidadServings"></div>
+                    <button class="menos"><i class="fa-solid fa-minus"></i></button>
+                    <h5>01</h5>
+                    <button class="mas"><i class="fa-solid fa-plus"></i></button>
+                </div>
                 <div class="dish-navigation"></div>
-                <div class="dish-cart"></div>
+                <div class="dish-price">
+                    <h4>PRECIO</h4>
+                    <p class="dinero">$60.00</p>
+                </div>
             </div>
         </main>
         
